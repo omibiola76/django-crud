@@ -1,0 +1,68 @@
+Searching 5071 files for "boards.views.home"
+
+/Users/tomas/myproject/templates/addnewcli.html:
+  178  					    </a>
+  179  						<ul class="sub-menu">
+  180: 						    <li class="active"><a href="{% url 'boards.views.home %}">Plush Delicate</a></li>
+  181  						</ul>
+  182  					</li>
+
+/Users/tomas/myproject/templates/tables.html:
+   39  				<!-- begin mobile sidebar expand / collapse button -->
+   40  				<div class="navbar-header">
+   41: 					<a href="{% url 'boards.views.home' %}" class="navbar-brand"><span class="navbar-logo"><i class="ion-ios-cloud"></i></span> <b>Color</b> Admin</a>
+   42  					<button type="button" class="navbar-toggle" data-click="sidebar-toggled">
+   43  						<span class="icon-bar"></span>
+   ..
+  168  					    </a>
+  169  						<ul class="sub-menu">
+  170: 						    <li class="active"><a href="{% url 'boards.views.home' %}">Plush Delicate</a></li>
+  171  						</ul>
+  172  					</li>
+
+/Users/tomas/myproject/templates/whiteboard.html:
+   43  				<!-- begin mobile sidebar expand / collapse button -->
+   44  				<div class="navbar-header">
+   45: 					<a href="{% url 'boards.views.home' %}" class="navbar-brand"><span class="navbar-logo"><i class="ion-ios-cloud"></i></span> <b>Plush</b> Admin</a>
+   46  					<button type="button" class="navbar-toggle" data-click="sidebar-toggled">
+   47  						<span class="icon-bar"></span>
+
+4 matches across 3 files
+
+
+Searching 5071 files for "boards-addnewcli"
+
+/Users/tomas/myproject/templates/addnewcli.html:
+  201  						</a>
+  202  						<ul class="sub-menu">
+  203: 							<li><a href="{% url 'boards-addnewcli' %}">Add New Client</a></li>
+  204  							<li><a href="{% url 'boards-tables' %}">Tables</a></li>
+  205  							<li><a href="{% url 'boards-whiteboard' %}">Whiteboard</a></li>
+
+/Users/tomas/myproject/templates/tables.html:
+  191  						</a>
+  192  						<ul class="sub-menu">
+  193: 							<li><a href="{% url 'boards-addnewcli' %}">Add New Client</a></li>
+  194  							<li><a href="{% url 'boards-tables' %}">Tables</a></li>
+  195  							<li><a href="{% url 'boards-whiteboard' %}">Whiteboard</a></li>
+
+/Users/tomas/myproject/templates/whiteboard.html:
+  195  						</a>
+  196  						<ul class="sub-menu">
+  197: 							<li><a href="{% url 'boards-addnewcli' %}">Add New Client</a></li>
+  198  							<li><a href="{% url 'boards-tables' %}">Tables</a></li>
+  199  							<li><a href="{% url 'boards-whiteboard' %}">Whiteboard</a></li>
+
+3 matches across 3 files
+
+
+Searching 5071 files for "boards-addnewcli"
+
+/Users/tomas/myproject/templates/tables.html:
+  191  						</a>
+  192  						<ul class="sub-menu">
+  193: 							<li><a href="{% url 'boards-addnewcli' %}">Add New Client</a></li>
+  194  							<li><a href="{% url 'boards-tables' %}">Tables</a></li>
+  195  							<li><a href="{% url 'boards-whiteboard' %}">Whiteboard</a></li>
+
+1 match in 1 file
